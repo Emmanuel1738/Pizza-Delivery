@@ -1,4 +1,4 @@
-# Just Like Mamma's
+# Just Like Mamma's.
 
 ## DESCRIPTION
 
