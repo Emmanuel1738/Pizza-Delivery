@@ -5,7 +5,7 @@
 - This is a  `Pizza-Website`. It is for Just Like Mamma's shop where it displays services and what we offer. It is  also a platform for one to order and have pizza delivered at their own comfort.
 
 ## Deployment
-- You can vist the site directly by clicking []()
+- You can vist the site directly by clicking [https://emmanuel1738.github.io/Pizza-Delivery/]
 - To view the source codes on github click [https://github.com/Emmanuel1738/Pizza-Delivery]
 
 ## Technologies Used
