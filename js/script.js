@@ -40,7 +40,7 @@ TotalPrice.prototype.finalTotal = function () {
     return ( this.price + this.delivery + this.toppings + this.crust )* this.quantity ;
 };
 
-var sizePrices = [1200, 850, 650]
+var sizePrices = [1200, 800, 600]
 var priceToppings = [100,120,80,150,200]
 var toppingsName= ["Pepperoni" , "mushroom" , "onion" ,"sausage", " bacon"]
 var crustNames= ["Crispy", "Stuffed", "Glutton-free"]
