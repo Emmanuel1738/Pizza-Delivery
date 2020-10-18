@@ -6,7 +6,7 @@
 
 ## Deployment
 - You can vist the site directly by clicking []()
-- To view the source codes on github click [https://github.com/Emmanuel1738/Pizza-Delivery]()
+- To view the source codes on github click [https://github.com/Emmanuel1738/Pizza-Delivery]
 
 ## Technologies Used
  - html
