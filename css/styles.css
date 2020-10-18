@@ -1,5 +1,6 @@
 .heading {
-    color: white;
+    color:yellow;
+    text-align-last: center;
     font-family: sans-serif;
   }
   
@@ -44,7 +45,7 @@
     display:none;
   }
   #contact {
-    background:#343a40;
+    background: grey;
     padding-top: 2%;
     padding-bottom: 1%;
   }
