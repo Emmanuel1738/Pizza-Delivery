@@ -40,7 +40,7 @@ TotalPrice.prototype.finalTotal = function () {
     return ( this.price + this.delivery + this.toppings + this.crust )* this.quantity ;
 };
 
-var sizePrices = [1200, 800, 600]
+var sizePrices = [1200, 850, 650]
 var priceToppings = [100,120,80,150,200]
 var toppingsName= ["Pepperoni" , "mushroom" , "onion" ,"sausage", " bacon"]
 var crustNames= ["Crispy", "Stuffed", "Glutton-free"]
@@ -71,7 +71,7 @@ $(document).ready(function(){
         }else{
             if(pizzaPick===2){
                var location= prompt(" Where would your like your Pizza to be Delivered? ");
-               var locations =["nairobi", "ngong road", "ngong lane plaza", "cbd", "moringa"]
+               var locations =["nairobi", "wendani", "ngong road", "ngong lane plaza", "cbd", "moringa"]
                if((location !== locations[0]) && (location !== locations[1]) && (location !== locations[2]) && (location !== locations[3]) && (location !== locations[4]) && (location !== locations[5])){
                 alert("Choose a location listed below")
                 alert(locations)
@@ -79,7 +79,7 @@ $(document).ready(function(){
             }
             else  { 
                 prompt("Please enter your phone number to facilitate communication and faster delivery.")
-                alert("Your order has been received and it will be delivered to " + location + " An additional 200/= will be charged for delivery.");
+                alert("Your order has been received and it will be delivered to " + location + " an additional 200/= will be charged for delivery.");
                 alert(newOrder.order());
                 alert("Your bill is: " + newTotal.finalTotal());
                 alert("Thank you for shopping with us! Your Order will be arriving soon." )
